@@ -16,7 +16,6 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Steven's first dfinity blockchain site</h1>
         </header>
-          <p>Just adding some dummy data to test the visuals</p>
           <Switch>
                 <Route exact path= "/" render={() => (
                   <Redirect to="/customerlist"/>

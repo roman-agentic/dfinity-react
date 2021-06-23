@@ -37,6 +37,7 @@ export default class Customers extends Component {
               <Panel.Title componentClass="h3">{customer.name}</Panel.Title>
             </Panel.Heading>
             <Panel.Body>
+	      <p>This is just me adding some dummy data for testing</p>
               <p>{customer.email}</p>
               <p>{customer.phone}</p>
               <Button bsStyle="info" onClick={() => this.setState({selectedCustomer: customer.id})}>
